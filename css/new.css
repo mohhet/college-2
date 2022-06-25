@@ -1,0 +1,137 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  color: #343434;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.second {
+  background-color: #030b3b;
+  color: aliceblue;
+}
+header {
+  text-align: center;
+}
+img {
+  float: left;
+  width: 150px;
+  padding: 0;
+  margin: 0;
+}
+.ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #d6dbf6;
+}
+header li {
+  float: left;
+}
+header li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Change the link color to white on hover */
+header li a:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+h1,
+h2 {
+  font-family: "Caveat", cursive;
+  font-weight: 400;
+  margin: 0;
+}
+h3 {
+  font-family: "Caveat", cursive;
+  font-weight: 600;
+  font-size: larger;
+  text-align: center;
+}
+.top {
+  background: #d9bf0c;
+  padding: 10px;
+  color: black;
+}
+.top-e {
+  background: #0cbf73;
+  padding: 10px;
+  color: black;
+}
+.list li {
+  padding: 10px;
+}
+.list li a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+.list li a:hover {
+  color: red;
+}
+.top-1 {
+  background-image: url(../image/joanna-kosinska-unsplash.jpg);
+  background-size: cover;
+  padding-bottom: 100px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  overflow: hidden;
+  background-size: cover;
+}
+.lost {
+  list-style-type: none;
+  line-height: 2;
+}
+.lost li {
+  padding: 10px;
+}
+.lost li a {
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+}
+.lost li a:hover {
+  color: red;
+}
+.contact {
+  text-align: center;
+  background: #030b3b;
+  color: antiquewhite;
+  padding: 10px;
+}
+.contact-item {
+  text-decoration: none;
+  font-weight: 600;
+  list-style-type: none;
+}
+.contact-item a {
+  color: antiquewhite;
+  text-decoration: none;
+  padding: 10px;
+}
+.contact-item a:hover {
+  color: red;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}

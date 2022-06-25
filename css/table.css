@@ -1,0 +1,32 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-weight: 600;
+  }
+  tr:nth-child(odd) {
+    background-color:#030B3B;
+    color: #D9BF0C;
+  }
+  tr:nth-child(even) {
+    background-color: #D9BF0C;
+    color: #030B3B;
+  }
+  tr td a{
+      text-decoration: none;
+  }
+  tr td a:hover{
+      color: red;
+  }
+  tr:nth-child(odd) a{
+      color: #D9BF0C;
+  }
+  tr:nth-child(even) a{
+      color: #030B3B;
+  }
